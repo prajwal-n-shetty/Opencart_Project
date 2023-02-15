@@ -10,25 +10,21 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
-	// Elements
 	@FindBy(xpath = "//span[text()='My Account']")
 	WebElement lnkMyaccount;
 
 	@FindBy(linkText = "Register")
 	WebElement lnkRegister;
 
-	@FindBy(linkText = "Login")   // Login link added in step6
+	@FindBy(linkText = "Login")
 	WebElement linkLogin;
-	
-	@FindBy(xpath="//input[@placeholder='Search']")  //For Search Product Test
+
+	@FindBy(xpath = "//input[@placeholder='Search']")
 	WebElement txtSearchbox;
-	
-	@FindBy(xpath="//div[@id='search']//button[@type='button']") //For Search Product Test
+
+	@FindBy(xpath = "//div[@id='search']//button[@type='button']")
 	WebElement btnSearch;
-	
-	
-		
-	// Action Methods
+
 	public void clickMyAccount() {
 		lnkMyaccount.click();
 	}
@@ -36,22 +32,17 @@ public class HomePage extends BasePage {
 	public void clickRegister() {
 		lnkRegister.click();
 	}
-	
-	public void clickLogin()    // added in step6
-	{
+
+	public void clickLogin() {
 		linkLogin.click();
 	}
-	
-	public void enterProductName(String pName)   //For Search Product Test
-	{
+
+	public void enterProductName(String pName) {
 		txtSearchbox.sendKeys(pName);
 	}
-	
-	public void clickSearch()  //For Search Product Test
-	{
+
+	public void clickSearch() {
 		btnSearch.click();
 	}
-	
-	
-	
+
 }

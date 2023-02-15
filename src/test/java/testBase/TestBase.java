@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;  // logging
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -24,50 +24,37 @@ import org.testng.annotations.Parameters;
 public class TestBase {
 
 	public static WebDriver driver;
-	
-	public Logger logger; // for logging
-	
+
+	public Logger logger; //logging
+
 	public ResourceBundle rb;
-	
-	
-	@BeforeClass(groups= {"Master","Sanity","Regression"})
+
+	@BeforeClass(groups = { "Master", "Sanity", "Regression" })
 	@Parameters("browser")
-	public void setup(String br)
-	{
-		rb=ResourceBundle.getBundle("config"); // Load config.properties file
-		
-		logger=LogManager.getLogger(this.getClass());  //logging
-				
-		//ChromeOptions options=new ChromeOptions();
-		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
-		
-		if(br.equals("chrome"))
-		{
-		driver=new ChromeDriver();
+	public void setup(String br) {
+		rb = ResourceBundle.getBundle("config"); // Load config.properties file
+
+		logger = LogManager.getLogger(this.getClass()); // logging
+
+		if (br.equals("chrome")) {
+			driver = new ChromeDriver();
+		} else if (br.equals("edge")) {
+			driver = new EdgeDriver();
+		} else {
+			driver = new FirefoxDriver();
 		}
-		else if(br.equals("edge"))
-		{
-			driver=new EdgeDriver();
-		}
-		else
-		{
-			driver=new FirefoxDriver();
-		}
-		
+
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
-		driver.get(rb.getString("opencartURL"));
-		
+		driver.get(rb.getString("opencartURL")); // Load config.properties file
 		driver.manage().window().maximize();
 	}
-	
-	@AfterClass(groups= {"Master","Sanity","Regression"})
-	public void tearDown()
-	{
+
+	@AfterClass(groups = { "Master", "Sanity", "Regression" })
+	public void tearDown() {
 		driver.quit();
 	}
-	
+
 	public String randomeString() {
 		String generatedString = RandomStringUtils.randomAlphabetic(5);
 		return (generatedString);
@@ -77,18 +64,16 @@ public class TestBase {
 		String generatedString2 = RandomStringUtils.randomNumeric(10);
 		return (generatedString2);
 	}
-	
+
 	public String randomAlphaNumeric() {
 		String st = RandomStringUtils.randomAlphabetic(4);
 		String num = RandomStringUtils.randomNumeric(3);
-		
-		return (st+"@"+num);
+		return (st + "@" + num);
 	}
-	
+
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-				
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
@@ -101,6 +86,5 @@ public class TestBase {
 		return destination;
 
 	}
-	
-	
+
 }

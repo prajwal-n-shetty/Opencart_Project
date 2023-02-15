@@ -12,7 +12,6 @@ public class AccountRegistrationPage extends BasePage {
 		super(driver);
 	}
 
-	// Elements
 		@FindBy(name = "firstname")
 		WebElement txtFirstname;
 
@@ -61,7 +60,6 @@ public class AccountRegistrationPage extends BasePage {
 			WebElement flag = driver.findElement(By.xpath("//input[@name='agree']"));
 			js.executeScript("arguments[0].scrollIntoView();",flag);
 			Thread.sleep(2000);
-			
 			chkdPolicy.click();
 
 		}
@@ -83,7 +81,5 @@ public class AccountRegistrationPage extends BasePage {
 			}
 
 		}
-		
-
 		
 }
