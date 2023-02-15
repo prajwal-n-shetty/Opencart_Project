@@ -62,4 +62,4 @@
 20:44:19.757 [main] INFO  testCases.TC_006_CheckoutTest -  Finished TC_006_CheckoutTest 
 20:44:21.737 [main] INFO  testCases.TC_007_EndToEndTest -  Starting TC_006_CheckoutTest 
 20:44:22.198 [main] INFO  testCases.TC_007_EndToEndTest -  Clicked on Register from Dropdown 
-20:44:24.710 [main] INFO  testCases.TC_007_EndToEndTest -  Entered Registration details 
+20:44:24.710 [main] INFO  testCases.TC_007_EndToEndTest -  Entered Registration details
