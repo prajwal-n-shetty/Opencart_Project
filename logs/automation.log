@@ -1,65 +1,102 @@
-19:11:30.744 [main] INFO  testCases.TC_006_CheckoutTest -  Starting TC_006_CheckoutTest 
-19:11:31.458 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on Search 
-19:11:31.522 [main] INFO  testCases.TC_006_CheckoutTest -  Product present Successful 
-19:11:32.187 [main] INFO  testCases.TC_006_CheckoutTest -  Product added to cart 
-19:12:04.519 [main] INFO  testCases.TC_006_CheckoutTest -  Starting TC_006_CheckoutTest 
-19:12:05.202 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on Search 
-19:12:05.254 [main] INFO  testCases.TC_006_CheckoutTest -  Product present Successful 
-19:12:05.855 [main] INFO  testCases.TC_006_CheckoutTest -  Product added to cart 
-19:13:16.870 [main] INFO  testCases.TC_006_CheckoutTest -  Starting TC_006_CheckoutTest 
-19:13:17.533 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on Search 
-19:13:17.586 [main] INFO  testCases.TC_006_CheckoutTest -  Product present Successful 
-19:13:18.199 [main] INFO  testCases.TC_006_CheckoutTest -  Product added to cart 
-19:13:29.175 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on checkout 
-19:13:30.162 [main] INFO  testCases.TC_006_CheckoutTest -  Entered billing details for Checkout 
-19:13:30.162 [main] INFO  testCases.TC_006_CheckoutTest -  Finished TC_006_CheckoutTest 
-20:42:58.017 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
-20:42:58.166 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My account link
-20:42:58.558 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register link
-20:42:58.561 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
-20:43:01.011 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on privacy terms
-20:43:01.078 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on continue
-20:43:06.125 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message
-20:43:06.128 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Finished TC_001_AccountRegistrationTest ***
-20:43:07.769 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_OO2_LoginTest *****
-20:43:07.847 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account
-20:43:08.238 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Link
-20:43:08.240 [main] INFO  testCases.TC_002_LoginTest - Providing login details
-20:43:08.501 [main] INFO  testCases.TC_002_LoginTest - clicked on Login button
-20:43:08.977 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest *****
-20:43:11.929 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
-20:43:12.560 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
-20:43:12.619 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-20:43:13.448 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
-20:43:13.453 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
-20:43:13.953 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
-20:43:14.008 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-20:43:24.080 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
-20:43:24.083 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
-20:43:24.577 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
-20:43:24.637 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-20:43:34.679 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
-20:43:34.682 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
-20:43:35.183 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
-20:43:35.243 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-20:43:45.256 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
-20:43:45.258 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
-20:43:45.749 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
-20:43:45.812 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-20:43:57.661 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
-20:43:57.747 [main] INFO  testCases.TC_004_SearchProductTest - Entered Product name
-20:43:58.394 [main] INFO  testCases.TC_004_SearchProductTest - Product existance verified
-20:43:58.394 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
-20:43:59.946 [main] INFO  testCases.TC_005_AddToCartTest -  Starting TC_005_AddToCartTest 
-20:44:00.567 [main] INFO  testCases.TC_005_AddToCartTest -  Clicked on Search
-20:44:05.174 [main] INFO  testCases.TC_005_AddToCartTest -  Finished TC_005_AddToCartTest 
-20:44:06.770 [main] INFO  testCases.TC_006_CheckoutTest -  Starting TC_006_CheckoutTest 
-20:44:07.364 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on Search 
-20:44:07.405 [main] INFO  testCases.TC_006_CheckoutTest -  Product present Successful 
-20:44:07.957 [main] INFO  testCases.TC_006_CheckoutTest -  Product added to cart 
-20:44:18.851 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on checkout 
-20:44:19.757 [main] INFO  testCases.TC_006_CheckoutTest -  Entered billing details for Checkout 
-20:44:19.757 [main] INFO  testCases.TC_006_CheckoutTest -  Finished TC_006_CheckoutTest 
-20:44:21.737 [main] INFO  testCases.TC_007_EndToEndTest -  Starting TC_006_CheckoutTest 
-20:44:22.198 [main] INFO  testCases.TC_007_EndToEndTest -  Clicked on Register from Dropdown 
-20:44:24.710 [main] INFO  testCases.TC_007_EndToEndTest -  Entered Registration details
+16:18:55.349 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+16:18:55.482 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My account link
+16:18:55.897 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register link
+16:18:55.900 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+16:18:58.339 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on privacy terms
+16:18:58.413 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on continue
+16:19:03.471 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message
+16:19:03.474 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Finished TC_001_AccountRegistrationTest ***
+16:19:05.219 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_OO2_LoginTest *****
+16:19:05.296 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account
+16:19:05.718 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Link
+16:19:05.721 [main] INFO  testCases.TC_002_LoginTest - Providing login details
+16:19:05.991 [main] INFO  testCases.TC_002_LoginTest - clicked on Login button
+16:19:06.550 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest *****
+16:19:09.558 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:19:10.214 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:19:10.278 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:19:11.087 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:19:11.091 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:19:11.620 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:19:11.673 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:19:21.712 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:19:21.716 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:19:22.219 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:19:22.270 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:19:32.336 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:19:32.349 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:19:32.902 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:19:32.959 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:19:42.997 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:19:43.002 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:19:43.518 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:19:43.577 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:19:53.631 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:19:55.341 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+16:19:55.432 [main] INFO  testCases.TC_004_SearchProductTest - Entered Product name
+16:19:56.079 [main] INFO  testCases.TC_004_SearchProductTest - Product existance verified
+16:19:56.080 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+16:19:57.747 [main] INFO  testCases.TC_005_AddToCartTest -  Starting TC_005_AddToCartTest 
+16:19:58.388 [main] INFO  testCases.TC_005_AddToCartTest -  Clicked on Search
+16:20:03.032 [main] INFO  testCases.TC_005_AddToCartTest -  Finished TC_005_AddToCartTest 
+16:20:04.688 [main] INFO  testCases.TC_006_CheckoutTest -  Starting TC_006_CheckoutTest 
+16:20:05.311 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on Search 
+16:20:05.354 [main] INFO  testCases.TC_006_CheckoutTest -  Product present Successful 
+16:20:05.920 [main] INFO  testCases.TC_006_CheckoutTest -  Product added to cart 
+16:20:16.841 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on checkout 
+16:20:17.785 [main] INFO  testCases.TC_006_CheckoutTest -  Entered billing details for Checkout 
+16:20:17.785 [main] INFO  testCases.TC_006_CheckoutTest -  Finished TC_006_CheckoutTest 
+16:20:19.850 [main] INFO  testCases.TC_007_EndToEndTest -  Starting TC_006_CheckoutTest 
+16:20:20.306 [main] INFO  testCases.TC_007_EndToEndTest -  Clicked on Register from Dropdown 
+16:20:22.825 [main] INFO  testCases.TC_007_EndToEndTest -  Entered Registration details 
+16:22:32.948 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+16:22:33.094 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My account link
+16:22:33.483 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register link
+16:22:33.486 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+16:22:35.937 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on privacy terms
+16:22:36.004 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on continue
+16:22:41.052 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message
+16:22:41.054 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Finished TC_001_AccountRegistrationTest ***
+16:22:42.703 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_OO2_LoginTest *****
+16:22:42.773 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account
+16:22:43.142 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Link
+16:22:43.144 [main] INFO  testCases.TC_002_LoginTest - Providing login details
+16:22:43.416 [main] INFO  testCases.TC_002_LoginTest - clicked on Login button
+16:22:43.849 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest *****
+16:22:46.701 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:22:47.362 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:22:47.427 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:22:48.192 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:22:48.197 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:22:48.738 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:22:48.797 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:22:58.863 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:22:58.867 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:22:59.377 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:22:59.437 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:23:09.453 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:23:09.461 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:23:09.979 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:23:10.035 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:23:20.094 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:23:20.097 [main] INFO  testCases.TC_003_LoginDDT - *** Starting TC_003_LoginDDT******
+16:23:20.624 [main] INFO  testCases.TC_003_LoginDDT - Entered login credentials
+16:23:20.686 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+16:23:30.731 [main] INFO  testCases.TC_003_LoginDDT - *** Finished TC_003_LoginDDT******
+16:23:32.368 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+16:23:32.454 [main] INFO  testCases.TC_004_SearchProductTest - Entered Product name
+16:23:33.135 [main] INFO  testCases.TC_004_SearchProductTest - Product existance verified
+16:23:33.135 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+16:23:34.766 [main] INFO  testCases.TC_005_AddToCartTest -  Starting TC_005_AddToCartTest 
+16:23:35.413 [main] INFO  testCases.TC_005_AddToCartTest -  Clicked on Search
+16:23:40.127 [main] INFO  testCases.TC_005_AddToCartTest -  Finished TC_005_AddToCartTest 
+16:23:41.742 [main] INFO  testCases.TC_006_CheckoutTest -  Starting TC_006_CheckoutTest 
+16:23:42.374 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on Search 
+16:23:42.410 [main] INFO  testCases.TC_006_CheckoutTest -  Product present Successful 
+16:23:42.973 [main] INFO  testCases.TC_006_CheckoutTest -  Product added to cart 
+16:23:53.869 [main] INFO  testCases.TC_006_CheckoutTest -  Clicked on checkout 
+16:23:54.820 [main] INFO  testCases.TC_006_CheckoutTest -  Entered billing details for Checkout 
+16:23:54.820 [main] INFO  testCases.TC_006_CheckoutTest -  Finished TC_006_CheckoutTest 
+16:23:56.830 [main] INFO  testCases.TC_007_EndToEndTest -  Starting TC_006_CheckoutTest 
+16:23:57.285 [main] INFO  testCases.TC_007_EndToEndTest -  Clicked on Register from Dropdown 
+16:23:59.789 [main] INFO  testCases.TC_007_EndToEndTest -  Entered Registration details 
