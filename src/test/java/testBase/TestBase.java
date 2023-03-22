@@ -15,6 +15,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -37,7 +38,9 @@ public class TestBase {
 		logger = LogManager.getLogger(this.getClass()); // logging
 
 		if (br.equals("chrome")) {
-			driver = new ChromeDriver();
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
+			driver = new ChromeDriver(chromeOptions);
 		} else if (br.equals("edge")) {
 			driver = new EdgeDriver();
 		} else {
